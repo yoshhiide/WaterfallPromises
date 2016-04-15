@@ -6,7 +6,7 @@ class WaterfallPromises {
   }
 
   gen(args) {
-    this.data = args;
+    this.data = (args || []).slice(0);
     this.results = [];
     this.promise = Promise.resolve(true);
 
