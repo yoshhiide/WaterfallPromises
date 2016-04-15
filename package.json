@@ -1,6 +1,6 @@
 {
   "name": "waterfallpromises",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Promise functions run in series",
   "main": "index.js",
   "scripts": {
