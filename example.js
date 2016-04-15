@@ -1,21 +1,13 @@
-# WaterfallPromises
-Promise functions run in series
+'use strict';
 
-#### usage  
-**new WaterfallPromises(PromisifyFunction)**  
-
-**gen(arguments)**
-
-#### example
-```js
-const WaterfallPromises = require('WaterfallPromises');
+const WaterfallPromises = require('./index');
 
 const sleeeep = (arg) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       console.log(arg);
       resolve(arg);
-    }, 300);
+    }, 400);
   });
 };
 
@@ -39,8 +31,3 @@ const si = setInterval(() => {
 
 // stop add data after 5 seconds
 setTimeout(() => clearInterval(si), 5000);
-
-
-// 0, 1, 2, 3...16
-// [0, 1, 2, 3...16]
-```
