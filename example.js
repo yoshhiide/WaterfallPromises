@@ -7,7 +7,7 @@ const sleeeep = (arg) => {
     setTimeout(() => {
       console.log(arg);
       resolve(arg);
-    }, 400);
+    }, 300);
   });
 };
 
