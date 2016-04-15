@@ -1,0 +1,23 @@
+{
+  "name": "waterfallpromises",
+  "version": "0.0.1",
+  "description": "Promise functions run in series",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoshhiide/WaterfallPromises.git"
+  },
+  "keywords": [
+    "promise",
+    "waterfall"
+  ],
+  "author": "Yoshihide Nabeyama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoshhiide/WaterfallPromises/issues"
+  },
+  "homepage": "https://github.com/yoshhiide/WaterfallPromises#readme"
+}
