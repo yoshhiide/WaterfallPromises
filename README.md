@@ -1,12 +1,19 @@
 # WaterfallPromises
 Promise functions run in series
 
-#### usage  
-**new WaterfallPromises(PromisifyFunction)**  
+### Requirements
+Node v4+
 
-**gen(arguments)**
+### Installation
+`$ npm install --save waterfallpromises`
 
-#### example
+### Usage  
+```js
+const water = new WaterfallPromises(PromisifyFunction)
+water.gen(arguments)
+```
+
+### Example
 ```js
 const WaterfallPromises = require('WaterfallPromises');
 
