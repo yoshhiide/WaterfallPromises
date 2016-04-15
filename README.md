@@ -15,6 +15,8 @@ water.gen(arguments)
 
 ### Example
 ```js
+'use strict';
+
 const WaterfallPromises = require('WaterfallPromises');
 
 const sleeeep = (arg) => {
@@ -38,18 +40,8 @@ water.gen(data)
   .catch((err)    => console.log(err));
 
 
-// add data
-let idx = 5;
-const si = setInterval(() => {
-  data.push(idx++);
-}, 400);
-
-// stop add data after 5 seconds
-setTimeout(() => clearInterval(si), 5000);
-
-
-// 0, 1, 2, 3...16
-// [0, 1, 2, 3...16]
+// 0, 1, 2, 3...99
+// [0, 1, 2, 3...99]
 ```
 
 ```js
